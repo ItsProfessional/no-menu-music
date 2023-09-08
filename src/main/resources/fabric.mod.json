@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "no-menu-music",
+  "version": "${version}",
+  "name": "No Menu Music",
+  "description": "Disable playing music in the menu.",
+  "authors": [
+    "ItsProfessional"
+  ],
+  "contact": {
+    "repo": "https://github.com/ItsProfessional/no-menu-music"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/no-menu-music/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+    ]
+  },
+  "mixins": [
+    "no-menu-music.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
